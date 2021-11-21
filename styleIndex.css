@@ -4,9 +4,9 @@
 }
 
 .ContenidoPrincipal {
-    display: inline-block;
-    position: absolute;
     border: 5px blue solid;
+    margin: 15px;
+    padding: 15px;
 }
 
 .AreaIzq {
@@ -14,8 +14,7 @@
     height: 800px;
     display: inline-block;
     border: 5px red solid;
-    position: sticky;
-    position: -webkit-sticky;
+
     margin: 0px;
     
 }
@@ -27,12 +26,24 @@
 }
 
 .AreaBio {
-    height: fit-content;
-    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    height: 100px;
+    width: 810px;
     position: absolute;
     border: 5px green solid;
     display: inline-block;
 
+}
+
+.Biografia {
+    margin: 0px;
+    padding: 0px;
+}
+
+.BioTexto {
+    margin: 0px;
+    padding: 0px;
 }
 
 .Header {
@@ -41,8 +52,12 @@
     padding: 0px;
     display: block;
     height: 50px;
-    position: sticky;
+    position: static;
     z-index: s;
     border: 5px black solid;
 }
 
+.Lista {
+    position: absolute;
+    display: block;
+}
